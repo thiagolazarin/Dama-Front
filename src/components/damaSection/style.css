@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.container-dama{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(650deg, #5c876b, rgba(255,0,0,0) 70.71%),
+                linear-gradient(360deg, rgba(255, 115, 0, 0.379), rgba(0,255,0,0) 70.71%),
+                linear-gradient(127deg, rgba(255, 115, 0, 0.379), rgba(0,0,255,0) 70.71%),
+                linear-gradient(360deg, #5c876b, rgba(0,0,255,0) 70.71%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+#logoDama{
+    width: 268px;
+    height: 68px;
+    display: flex;
+}
+
+#title{
+    color: white;
+    width: 250px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+@media (max-width: 320px){
+    .container-dama{
+        gap: 0px;
+    }
+
+    #logoDama{
+        width: 160px;
+        height: 85px;
+    }
+
+    #title{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 426px){
+    .container-dama{
+        gap: 0px;
+    }
+
+    #logoDama{
+        width: 160px;
+        height: 85px;
+    }
+
+    #title{
+        font-size: 18px;
+    }
+}

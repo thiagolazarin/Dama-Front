@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    max-width: 100%;    
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-inputs{
+    background-color: #EEEEEE;
+    height: 100%;
+    width: 58%;
+    padding: 25px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-inputs h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.container-inputs p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container-inputs .inputs{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 25px;
+}
+
+.inupts-text{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: gray;
+}
+
+.inupts-text .icon{
+    position: absolute;
+    margin-right: 10px;
+}
+
+.inupts-text input{
+    padding: 11px;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.buttons button{
+    width: 75%;
+    padding: 9px 13px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+
+.btnCriarConta{
+    background-color: #FF7300;
+    transition: 0.2s;
+}
+
+.btnCriarConta:hover{
+    background-color: #ffa459;
+}
+
+.btnEntrar{
+    background-color: #A94C00;
+    transition: 0.2s;
+}
+
+.btnEntrar:hover{
+    background-color: #ff9e4f;
+}
+
+.esqueceuSenha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.esqueceuSenha a{
+    text-decoration: none;
+    color: gray;
+}
+
+@media (max-width: 320px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-inputs{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 426px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-inputs{
+        width: 100%;
+        text-align: center;
+    }
+}
