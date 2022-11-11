@@ -19,28 +19,43 @@ const CadastrarEmpresa = () => {
           <div className="inputs">
 
             <div className="inupts-text">
-                <input type="text" placeholder="Nome *"/>
+                <input type="text" placeholder="Nome da empresa*" required/>
                 <BsPersonFill className="icon"/>
             </div>
 
             <div className="inupts-text">
-                <input type="email" placeholder="Endereço de email *"/>
-                <MdEmail className="icon"/>
-            </div>
-
-            <div className="inupts-text">
-              <input type="password" placeholder="Senha *"/>
-              <BsFillLockFill className="icon"/>
-            </div>
-
-            <div className="inupts-text">
-              <input type="number" placeholder="CNPJ *" />
+              <input type="number" placeholder="CNPJ *" required/>
               <HiDocumentText className="icon"/>
             </div>
 
             <div className="inupts-text">
-              <input type="tel" placeholder="Contato *" />
+                <input type="text" placeholder="Nome responsável*" required/>
+                <BsPersonFill className="icon"/>
+            </div>
+
+            <div className="inupts-text">
+                <input type="email" placeholder="Email do responsável*" required/>
+                <MdEmail className="icon"/>
+            </div>
+
+            <div className="inupts-text">
+                <input type="text" placeholder="Cargo do responsável*" required/>
+                <BsPersonFill className="icon"/>
+            </div>
+
+            <div className="inupts-text">
+              <input type="tel" placeholder="Contato do responsável" />
               <BsTelephoneFill className="icon"/>
+            </div>
+
+            <div className="inupts-text">
+              <input type="password" placeholder="Senha *" required/>
+              <BsFillLockFill className="icon"/>
+            </div>
+
+            <div className="inupts-text">
+              <input type="password" placeholder="Confirmar senha *" required/>
+              <BsFillLockFill className="icon"/>
             </div>
 
             <div className="buttons">

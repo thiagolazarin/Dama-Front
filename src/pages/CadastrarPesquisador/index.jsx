@@ -22,28 +22,43 @@ const CadastrarPesquisador = () => {
           <div className="inputs">
 
             <div className="inupts-text">
-                <input type="text" placeholder="Nome *"/>
+                <input type="text" placeholder="Nome do pesquisador *" required/>
                 <BsPersonFill className="icon"/>
             </div>
 
             <div className="inupts-text">
-                <input type="email" placeholder="Endereço de email *"/>
+                <input type="email" placeholder="Email do pesquisador *" required/>
                 <MdEmail className="icon"/>
             </div>
 
             <div className="inupts-text">
-              <input type="password" placeholder="Senha *"/>
-              <BsFillLockFill className="icon"/>
+                <input type="text" placeholder="Cargo do pesquisador"/>
+                <MdEmail className="icon"/>
             </div>
 
             <div className="inupts-text">
-              <input type="number" placeholder="CPF *" />
+                <input type="text" placeholder="Organização do pesquisador"/>
+                <MdEmail className="icon"/>
+            </div>
+
+            <div className="inupts-text">
+              <input type="number" placeholder="CPF do pesquisador*" />
               <HiDocumentText className="icon"/>
             </div>
 
             <div className="inupts-text">
-              <input type="tel" placeholder="Contato *" />
+              <input type="tel" placeholder="Contato do pesquisador" />
               <BsTelephoneFill className="icon"/>
+            </div>
+
+            <div className="inupts-text">
+              <input type="password" placeholder="Senha *" required/>
+              <BsFillLockFill className="icon"/>
+            </div>
+
+            <div className="inupts-text">
+              <input type="password" placeholder="Confirmar senha *" required/>
+              <BsFillLockFill className="icon"/>
             </div>
 
             <div className="buttons">

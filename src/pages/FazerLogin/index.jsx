@@ -2,9 +2,8 @@
 import "./style.css";
 
 //icons
-import { BsPersonFill, BsFillLockFill, BsTelephoneFill, BsSearch } from 'react-icons/bs';
+import { BsFillLockFill, BsSearch } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
-import { HiDocumentText } from 'react-icons/hi';
 import DamaSection from "../../components/damaSection";
 
 const FazerLogin = () => {
@@ -39,6 +38,7 @@ const FazerLogin = () => {
             <div className="esqueceuSenha">
                 <BsSearch/>
                 <a href="">Esqueceu a senha?</a>
+                <a href=""><strong>Termos e condições de uso</strong></a>
             </div>
 
           </div>
